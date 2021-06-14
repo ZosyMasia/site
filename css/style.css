@@ -172,6 +172,9 @@ pre {
   font-size: 16px;
   line-height: 20px;
 }
+.header__link span {
+  text-transform: uppercase;
+}
 @media (max-width: 767.08px) {
   .header__link {
     font-size: 20px;
@@ -377,6 +380,42 @@ nav #header__marker {
   max-width: 100%;
 }
 
+.menu-radius-left-rigth {
+  border-radius: 10px 10px 0 0;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: radial-gradient(circle at 50% 100%, rgba(2, 12, 71, 0.9), #020c47, #020c47);
+}
+
+.menu .menu__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+}
+
+.menu .menu__list li {
+  position: relative;
+  color: #d8eb2c;
+  text-transform: lowercase;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.menu .menu__list_flex {
+  justify-content: space-evenly !important;
+}
+
 .content {
   position: relative;
   max-width: 100%;
@@ -423,6 +462,7 @@ nav #header__marker {
 }
 .content .section .block .block__title h3 {
   font-size: smaller;
+  padding: 5px 0 0 0;
 }
 .content .section .block__main {
   max-width: 90%;
@@ -493,7 +533,7 @@ nav #header__marker {
 }
 
 .review .review__item {
-  max-width: 800px;
+  max-width: 1000px;
   height: 100%;
   margin: 20px auto;
   padding: 20px;
@@ -527,6 +567,7 @@ nav #header__marker {
 .review .review__item .review__img img {
   width: 100%;
   padding: 5px;
+  object-fit: cover;
 }
 
 .review .review__state {

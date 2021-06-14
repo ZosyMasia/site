@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
     <title><?=$sitename?></title>
 </head>
 <body>
@@ -28,7 +28,6 @@
                                 <li><a class="header__link" href="#">Под страховкой</a></li>
                                 <li><a class="header__link" href="#">Контакты</a></li>
                                 <li><a class="header__link" href="#">Правила</a></li>
-                                <li><a class="header__link" href="/MasS/">Админ</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -38,14 +37,14 @@
                 <div class="container">
                     <div class="top2__wrap">
                         <div class="top2__img">
-                            <img src="./img/block-logo.png" alt="block-logo">
+                            <img src="../../img/block-logo.png" alt="block-logo">
                         </div>
                         <div class="banner__wrap">
                             <div class="banner banner1">
-                                <a href="#"><img src="./images/banner/468.gif" alt="banner"></a>
+                                <a href="#"><img src="../../images/banner/468.gif" alt="banner"></a>
                             </div>
                             <div class="banner banner2">
-                                <a href="#"><img src="./images/banner/468.gif" alt="banner"></a>
+                                <a href="#"><img src="../../images/banner/468.gif" alt="banner"></a>
                             </div>
                         </div>
                     </div>

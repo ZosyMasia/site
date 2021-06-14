@@ -4,6 +4,14 @@ if (!defined('SCRIPT_MASIA')) {
     exit();
 } ?>
 <div class="content">
+    
+    <nav class="menu menu-radius-left-rigth">
+        <ul class="menu__list menu__list_flex">
+            <li><a href="/?stat=2">Новые</a></li>
+            <li><a href="/?stat=1">Платят</a></li>
+            <li><a href="/?stat=0">Скамы</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="content__wrap">
             <?
