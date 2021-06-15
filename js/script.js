@@ -5,7 +5,7 @@ const menu = document.querySelector('.header__menu');
 const body = document.querySelector('body');
 const link = document.querySelector('.header__link');
 let marker = document.querySelector('#header__marker');
-let item = document.querySelectorAll('.header__link');
+let item = document.querySelectorAll('a.header__link');
 
 burger.addEventListener('click', () => {
     burger.classList.toggle('active');
