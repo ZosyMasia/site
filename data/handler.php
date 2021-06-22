@@ -12,8 +12,8 @@ function v ($v) {
     exit;
 };
 // -----------------------------------------------------------
-if (isset($_GET['stat']) && $_GET['stat'] <= 2) {
-    $stat = $_GET['stat'];
+if (isset($_GET['st']) && $_GET['st'] <= 2) {
+    $stat = $_GET['st'];
 } else {
     $stat = 1;
 }

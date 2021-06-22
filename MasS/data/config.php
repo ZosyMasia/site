@@ -4,6 +4,7 @@ $db = 'test1'; // Имя базы данных
 $user = 'root'; // Логин пользователя от базы данных
 $pass = ''; // Пароль от базы данных
 $charset = 'UTF8';//Кодировка файлов
+$admin_m = '/MasS';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $opt = array( PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC );

@@ -8,9 +8,9 @@ if (!defined('SCRIPT_MASIA')) {
         <div class="content">
             <nav class="menu menu-radius-left-rigth">
                 <ul class="menu__list menu__list_flex">
-                    <li><a href="/?stat=2">Новые</a></li>
-                    <li><a href="/?stat=1">Платят</a></li>
-                    <li><a href="/?stat=0">Скамы</a></li>
+                    <li><a href="/?st=2">Хайпы</a></li>
+                    <li><a href="/?st=1">Игры</a></li>
+                    <li><a href="/?st=0">Скамы</a></li>
                 </ul>
             </nav>
             <div class="content__wrap">
@@ -50,9 +50,9 @@ if (!defined('SCRIPT_MASIA')) {
                 } else { ?>
                     <?
                     $statement = $pdo->prepare("SELECT m.title,m.title_link,m.state,m.views,r.*,i.img_name 
-FROM main m LEFT JOIN review r ON m.id = r.main_id
-LEFT JOIN images i ON m.id = i.main_id
-WHERE m.id = :id LIMIT 1");
+                    FROM main m LEFT JOIN review r ON m.id = r.main_id
+                    LEFT JOIN images i ON m.id = i.main_id
+                    WHERE m.id = :id LIMIT 1");
                     $statement->execute(array('id' => $id));
                     $main = $statement->fetch(PDO::FETCH_ASSOC);
                     ?>
